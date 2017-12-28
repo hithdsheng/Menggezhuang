@@ -1,0 +1,110 @@
+/*css file of msg-detail.html*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{}
+/*head ---start*/
+#header{
+	background-color: greenyellow;
+	height: 150px;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo{
+	height: 150px;
+	width: 197px;
+}
+#img-logo{
+	height: 150px;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+#nav{
+	background-color: #009b00;
+	height: 40px;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbtn{
+	height: 40px;
+	line-height: 40px;
+	width: 100px;
+	text-align: center;
+	float: left;
+}
+.navbtn:nth-child(1) a{color: black; text-decoration: none;}
+.navbtn:nth-child(2) a{color: black; text-decoration: none;}
+.navbtn:nth-child(3) a{color: black; text-decoration: none;}
+.navbtn:nth-child(4) a{color: black; text-decoration: none;}
+.navbtn:nth-child(5) a{color: white; text-decoration: none;}
+.navbtn a:hover{color: floralwhite;}
+.navbtn:hover{background-color: green;}
+/*head ---end*/
+/*content ---start*/
+#wrap{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+#one{
+	width:100%;
+	height: 800px;
+}
+/*content ---end*/
+
+/*foot ---start*/
+#foot{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	width: 100%;
+	height: 200px;
+	background-color: #4F4F4F;
+}
+.foot-item{
+	width: 300px;
+	height: 150px;
+	
+	/*设置宋体*/
+	font-family: simsun;
+	color: floralwhite;
+}
+#foot-l{
+	border-right: solid 1px floralwhite;
+}
+#foot-m{
+	border-right: solid 1px floralwhite;
+}
+#foot-r{
+}
+.foot-item table{
+	width:100%;
+}
+.td1{
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	padding-left: 5px;
+	color: #00ee00;
+}
+.td2{
+	height: 16px;
+	line-height: 16px;
+	font-size: 13px;
+	padding-left: 5px;
+}
+.td2 a{color: floralwhite; text-decoration: none;}
+.td2 a:hover{color: #00ee00;}
+.links{
+	float: left;
+	width: 33%;
+}
+.links a{color: floralwhite; text-decoration: none;}
+.links a:hover{color: #00ee00;}
+/*foot ---end*/
