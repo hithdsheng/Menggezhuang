@@ -2,14 +2,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<title>孟各庄-首页</title>
-		<link type="text/css" rel="stylesheet" href="css/index.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="utf-8" />
+		<title>孟各庄-消息内容</title>
+		<link type="text/css" rel="stylesheet" href="css/msg-detail.css" />
 		<link rel="shortcut icon" href="img/icon.ico" />
-		<!--控制本页面的所有超链接在新的窗口中打开-->
-		<base target="_blank" />
 	</head>
-
 	<body>
 		<div id="header">
 			<div id="logo"><img id="img-logo" src="img/logo.png" /></div>
@@ -17,7 +15,7 @@
 		</div>
 		<div id="nav">
 			<div id="" class="navbtn">
-				<a href="">首页</a>
+				<a href="index.jsp">首页</a>
 			</div>
 			<div id="" class="navbtn">
 				<a href="">本地生活</a>
@@ -32,34 +30,10 @@
 				<a href="about_us.jsp">关于我们</a>
 			</div>
 		</div>
-		<div id="wrap" >
+		<div id="wrap">
 			<div id="one">
-				<div id="cal_wrap">
-					<iframe id="myiframe" src="cal.html" frameborder="0"></iframe>
-				</div>
-				<div id="local-service">
-					<div id="" class="sub-title">
-						<div id="" style="float: left;">本地生活服务</div>
-						<div id="" style="float: right;"><a href="msg_detail.jsp">更多</a></div>
-					</div>
-					<div id="" class="sub-content"></div>
-				</div>
-			</div>
-			<div id="two">
-				<div id="job" class="">
-					<div id="" class="sub-title">
-						<div id="" style="float: left;">求职招聘</div>
-						<div id="" style="float: right;"><a href="msg_detail.jsp">更多</a></div>
-						</div>
-					<div id="" class="sub-content"></div>
-				</div>
-				<div id="movie" class="">
-					<div id="" class="sub-title">
-						<div id="" style="float: left;">影视资讯</div>
-						<div id="" style="float: right;"><a href="msg_detail.jsp">更多</a></div>
-						</div>
-					<div id="" class="sub-content"></div>
-				</div>
+				<div id="one-left"></div>
+				<div id="one-right"></div>
 			</div>
 			<div id="foot">
 				<div id="foot-l" class="foot-item">
@@ -114,17 +88,6 @@
 					</table>
 				</div>
 			</div>
-			<!--
-            	作者：sheng
-            	时间：2017-12-19
-            	描述：
-			<div id="test1">
-				<div id="test2">123</div>
-
-			</div>
-            -->
 		</div>
-
 	</body>
-
 </html>
