@@ -22,7 +22,12 @@ body{}
 	border-top-right-radius: 30px;
 }
 #nav{
-	background-color: #009b00;
+	/*background-color: #009b00;*/
+	/*±³¾°½¥±äÉ«*/
+	background:linear-gradient(top,#00EE00, #009B00);
+	background:-webkit-linear-gradient(top,#00EE00, #009B00);
+	background:-o-linear-gradient(top,#00EE00, #009B00);
+	background:-moz-linear-gradient(top,#00EE00, #009B00);
 	height: 40px;
 	width: 980px;
 	margin-left: auto;
@@ -41,7 +46,7 @@ body{}
 .navbtn:nth-child(4) a{color: black; text-decoration: none;}
 .navbtn:nth-child(5) a{color: white; text-decoration: none;}
 .navbtn a:hover{color: floralwhite;}
-.navbtn:hover{background-color: green;}
+.navbtn:hover{background-color: #009B00;}
 /*head ---end*/
 /*content ---start*/
 #wrap{
@@ -91,7 +96,7 @@ body{}
 	line-height: 30px;
 	font-size: 18px;
 	padding-left: 5px;
-	color: #00ee00;
+	color: #009B00;
 }
 .td2{
 	height: 16px;
@@ -100,11 +105,11 @@ body{}
 	padding-left: 5px;
 }
 .td2 a{color: floralwhite; text-decoration: none;}
-.td2 a:hover{color: #00ee00;}
+.td2 a:hover{color: #009B00;}
 .links{
 	float: left;
 	width: 33%;
 }
 .links a{color: floralwhite; text-decoration: none;}
-.links a:hover{color: #00ee00;}
+.links a:hover{color: #009B00;}
 /*foot ---end*/

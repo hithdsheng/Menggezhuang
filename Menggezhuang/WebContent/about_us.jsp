@@ -83,15 +83,6 @@
 						<tr><td class="td2">二維碼</td></tr>
 					</table>
 				</div>
-				<div id="foot-r" class="foot-item">
-					<table>
-						<tr><td class="td1">商务合作</td></tr>
-						<tr><td class="td2">E-mail：hithdsheng@163.com</td></tr>
-						<tr><td class="td2">QQ：3117897188</td></tr>
-						<tr><td class="td2">TEL：18631703091</td></tr>
-						<tr><td class="td2">二維碼</td></tr>
-					</table>
-				</div>
 			</div>
 		</div>
 	</body>
