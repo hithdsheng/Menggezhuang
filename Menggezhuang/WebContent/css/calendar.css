@@ -32,7 +32,7 @@ ul, li { list-style: none; }
   text-align: center;
   border-radius: 50%;
   color: #fff;
-  background-color: rgb(0, 238, 0);
+  background-color: #009b00;
   font-size: 18px;
 }
 .calendar-title .arrow {
@@ -75,7 +75,7 @@ ul, li { list-style: none; }
 }
 .calendar-week {
   padding-bottom: 6px;
-  border-bottom: 1px solid #00ee00;
+  border-bottom: 1px solid #009B00;
   font-weight: bold;
   font-size: 16px;
 }
@@ -96,7 +96,7 @@ ul, li { list-style: none; }
 .calendar-date .item-curDay:hover {
   color: #fff;
   /*background-color: rgb(255, 128, 142);*/
-  background-color: #00ee00;
+  background-color: #009B00;
 }
 .calendar-today {
   display: none;
@@ -108,7 +108,7 @@ ul, li { list-style: none; }
   height: 48px;
   padding: 6px 10px;
   /*background-color: rgb(255, 128, 142);*/
-  background-color: #00ee00;
+  background-color: #009B00;
   border-radius: 5px;
 }
 .calendar-today .triangle {
@@ -118,7 +118,7 @@ ul, li { list-style: none; }
   margin-top: -8px;
   border-width: 8px;
   border-style: solid;
-  border-color: transparent #00ee00 transparent transparent;
+  border-color: transparent #009B00 transparent transparent;
 }
 .calendar-today p {
   color: #fff;

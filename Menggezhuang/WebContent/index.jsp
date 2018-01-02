@@ -4,7 +4,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title>孟各庄-首页</title>
-		<link type="text/css" rel="stylesheet" href="css/index.css" />
+		<link type="text/css" rel="stylesheet" href="css/index.css?version=1" />
 		<link rel="shortcut icon" href="img/icon.ico" />
 		<!--控制本页面的所有超链接在新的窗口中打开-->
 		<base target="_blank" />
