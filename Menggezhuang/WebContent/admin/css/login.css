@@ -1,0 +1,73 @@
+/*author sheng
+  time 2018/1/3
+  css file of login.jsp*/
+  
+*{padding:0;margin:0;font-family:Microsoft Yahei;}
+
+/*网页头部写DOCTYPE的时候，body不是html页面的根元素，html才是根元素，如果仅仅设置body的100%，不设置html元素的高度为100%，那么body的高度不会生效*/
+html{width:100%;height:100%;}
+body{
+	width:100%;
+	height:100%;
+	
+	display:flex;
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-o-flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: space-around;
+	
+	background:linear-gradient(top,#5CACEE, #FFFFFF);
+	background:-webkit-linear-gradient(top,#5CACEE, #FFFFFF);
+	background:-moz-linear-gradient(top,#5CACEE, #FFFFFF);
+	background:-o-linear-gradient(top,#5CACEE, #FFFFFF);
+}
+#wrap{
+	width:400px;
+	height:250px;
+	border-radius:6px;
+	box-shadow: 2px 2px 3px #888888;
+	background:#e4f1fc;
+}
+#one{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	text-align:center;
+	font-size:25px;
+}
+#two{
+	width:100%;
+	height:150px;
+}
+#two table{
+	width:100%;
+	height:100%;
+}
+.td1{width:30%;text-align:right;}
+.td2{width:70%;text-align:left;}
+.td2_input{
+	width:200px;
+	height:25px;
+	line-height:25px;
+}
+#three{
+	height:50px;
+	line-height:50px;
+	background:#e9dfd6;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+}
+#three table{
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+.btn{
+	width:50px;
+	height:25px;
+	line-height:25px;
+}
