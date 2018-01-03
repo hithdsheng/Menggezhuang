@@ -15,6 +15,8 @@ public class Message {
 	private String category;
 	private String content;
 	private String time;
+	private String author;
+	private String auttle;
 	
 	//get and set methods
 	
@@ -58,6 +60,22 @@ public class Message {
 		this.time = time;
 	}
 	
+	public String getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public String getAuttle() {
+		return auttle;
+	}
+
+	public void setAuttle(String auttle) {
+		this.auttle = auttle;
+	}
+
 	/**
 	 * main method
 	 * */
